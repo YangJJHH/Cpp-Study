@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "널 포인터", "널 포인
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "포인터와 정적배열", "포인터와 정적배열\포인터와 정적배열.vcxproj", "{C6C558F8-71D4-4C0D-B36C-4934C5DB0F47}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "포인터 연산과 배열 인덱싱", "포인터 연산과 배열 인덱싱\포인터 연산과 배열 인덱싱.vcxproj", "{DA88D063-AC45-4AB8-8460-386AD75D3764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{C6C558F8-71D4-4C0D-B36C-4934C5DB0F47}.Release|x64.Build.0 = Release|x64
 		{C6C558F8-71D4-4C0D-B36C-4934C5DB0F47}.Release|x86.ActiveCfg = Release|Win32
 		{C6C558F8-71D4-4C0D-B36C-4934C5DB0F47}.Release|x86.Build.0 = Release|Win32
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Debug|x64.ActiveCfg = Debug|x64
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Debug|x64.Build.0 = Debug|x64
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Debug|x86.Build.0 = Debug|Win32
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x64.ActiveCfg = Release|x64
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x64.Build.0 = Release|x64
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x86.ActiveCfg = Release|Win32
+		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
