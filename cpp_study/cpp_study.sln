@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열", "문자열\문�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "포인터", "포인터\포인터.vcxproj", "{15CBFC82-1EC6-4DB7-9BCD-AF631192678B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "널 포인터", "널 포인터\널 포인터.vcxproj", "{5FFB69A0-1F34-4131-B655-38809BFD0A42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{15CBFC82-1EC6-4DB7-9BCD-AF631192678B}.Release|x64.Build.0 = Release|x64
 		{15CBFC82-1EC6-4DB7-9BCD-AF631192678B}.Release|x86.ActiveCfg = Release|Win32
 		{15CBFC82-1EC6-4DB7-9BCD-AF631192678B}.Release|x86.Build.0 = Release|Win32
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Debug|x64.ActiveCfg = Debug|x64
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Debug|x64.Build.0 = Debug|x64
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Debug|x86.Build.0 = Debug|Win32
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Release|x64.ActiveCfg = Release|x64
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Release|x64.Build.0 = Release|x64
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Release|x86.ActiveCfg = Release|Win32
+		{5FFB69A0-1F34-4131-B655-38809BFD0A42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
