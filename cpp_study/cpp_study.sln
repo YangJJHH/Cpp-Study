@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "메모리의 동적 할당"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "동적할당배열", "동적할당배열\동적할당배열.vcxproj", "{72A10051-1AB2-4650-8318-57371AFD1998}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "참조변수", "참조변수\참조변수.vcxproj", "{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{72A10051-1AB2-4650-8318-57371AFD1998}.Release|x64.Build.0 = Release|x64
 		{72A10051-1AB2-4650-8318-57371AFD1998}.Release|x86.ActiveCfg = Release|Win32
 		{72A10051-1AB2-4650-8318-57371AFD1998}.Release|x86.Build.0 = Release|Win32
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Debug|x64.ActiveCfg = Debug|x64
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Debug|x64.Build.0 = Debug|x64
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Debug|x86.Build.0 = Debug|Win32
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Release|x64.ActiveCfg = Release|x64
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Release|x64.Build.0 = Release|x64
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Release|x86.ActiveCfg = Release|Win32
+		{5BBC3B15-567B-42B4-A4A0-73B7EA531D26}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
