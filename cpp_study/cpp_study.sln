@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "포인터와 정적배열",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "포인터 연산과 배열 인덱싱", "포인터 연산과 배열 인덱싱\포인터 연산과 배열 인덱싱.vcxproj", "{DA88D063-AC45-4AB8-8460-386AD75D3764}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "메모리의 동적 할당", "메모리의 동적 할당\메모리의 동적 할당.vcxproj", "{E4A703B0-1981-4135-9ABA-E38E38070560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x64.Build.0 = Release|x64
 		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x86.ActiveCfg = Release|Win32
 		{DA88D063-AC45-4AB8-8460-386AD75D3764}.Release|x86.Build.0 = Release|Win32
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Debug|x64.ActiveCfg = Debug|x64
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Debug|x64.Build.0 = Debug|x64
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Debug|x86.Build.0 = Debug|Win32
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Release|x64.ActiveCfg = Release|x64
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Release|x64.Build.0 = Release|x64
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Release|x86.ActiveCfg = Release|Win32
+		{E4A703B0-1981-4135-9ABA-E38E38070560}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
