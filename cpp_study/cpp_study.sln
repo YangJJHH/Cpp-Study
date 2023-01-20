@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string과wstring", "string�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string의 여러가지 생성자들과 형변환", "string의 여러가지 생성자들과 형변환\string의 여러가지 생성자들과 형변환.vcxproj", "{E117ED9C-1F3A-4EF4-80B9-0AB10BE46A13}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "객제지향 프로그래밍과 클래스", "객제지향 프로그래밍과 클래스\객제지향 프로그래밍과 클래스.vcxproj", "{F7A5C7DA-CC65-4D69-96D2-999F739517DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{E117ED9C-1F3A-4EF4-80B9-0AB10BE46A13}.Release|x64.Build.0 = Release|x64
 		{E117ED9C-1F3A-4EF4-80B9-0AB10BE46A13}.Release|x86.ActiveCfg = Release|Win32
 		{E117ED9C-1F3A-4EF4-80B9-0AB10BE46A13}.Release|x86.Build.0 = Release|Win32
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Debug|x64.ActiveCfg = Debug|x64
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Debug|x64.Build.0 = Debug|x64
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Debug|x86.Build.0 = Debug|Win32
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Release|x64.ActiveCfg = Release|x64
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Release|x64.Build.0 = Release|x64
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Release|x86.ActiveCfg = Release|Win32
+		{F7A5C7DA-CC65-4D69-96D2-999F739517DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
