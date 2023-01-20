@@ -26,7 +26,7 @@ public:
 		arr = new int[_len];
 	}
 	~ArrayClass() {
-		delete[] arr; //소멸자가 실행되면서 알아서 메모리 해제
+		delete[] arr; //소멸자가 실행되면서 알아서 메모리 해제, 소멸자에 delete이 없으면 -> 메모리 누수
 	}
 
 };
