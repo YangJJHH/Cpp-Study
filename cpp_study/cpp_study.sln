@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "객체구성관계", "객�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "제휴관계", "제휴관계\제휴관계.vcxproj", "{6C577970-017E-4307-8D14-E6160E57B18F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "상속받은 함수를 감추기", "상속받은 함수를 감추기\상속받은 함수를 감추기.vcxproj", "{0D134B78-74FC-4CFB-BF00-DF9B087C495A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{6C577970-017E-4307-8D14-E6160E57B18F}.Release|x64.Build.0 = Release|x64
 		{6C577970-017E-4307-8D14-E6160E57B18F}.Release|x86.ActiveCfg = Release|Win32
 		{6C577970-017E-4307-8D14-E6160E57B18F}.Release|x86.Build.0 = Release|Win32
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Debug|x64.ActiveCfg = Debug|x64
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Debug|x64.Build.0 = Debug|x64
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Debug|x86.Build.0 = Debug|Win32
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Release|x64.ActiveCfg = Release|x64
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Release|x64.Build.0 = Release|x64
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Release|x86.ActiveCfg = Release|Win32
+		{0D134B78-74FC-4CFB-BF00-DF9B087C495A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
