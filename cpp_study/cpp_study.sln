@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "상속받은 함수를 감�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "다형성의 개념", "다형성의 개념\다형성의 개념.vcxproj", "{6786C4B1-55E4-4ED7-B5F8-7DF7FA5FE66C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "함수템플릿", "함수템플릿\함수템플릿.vcxproj", "{24565E97-C200-4755-81BE-EDD146CFAF8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{6786C4B1-55E4-4ED7-B5F8-7DF7FA5FE66C}.Release|x64.Build.0 = Release|x64
 		{6786C4B1-55E4-4ED7-B5F8-7DF7FA5FE66C}.Release|x86.ActiveCfg = Release|Win32
 		{6786C4B1-55E4-4ED7-B5F8-7DF7FA5FE66C}.Release|x86.Build.0 = Release|Win32
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Debug|x64.ActiveCfg = Debug|x64
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Debug|x64.Build.0 = Debug|x64
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Debug|x86.Build.0 = Debug|Win32
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Release|x64.ActiveCfg = Release|x64
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Release|x64.Build.0 = Release|x64
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Release|x86.ActiveCfg = Release|Win32
+		{24565E97-C200-4755-81BE-EDD146CFAF8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
