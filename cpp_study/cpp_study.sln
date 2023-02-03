@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "함수템플릿", "함수�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "클래스 템플릿", "클래스 템플릿\클래스 템플릿.vcxproj", "{B8E48164-9630-48A7-86B5-DD71DFF5E8DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "함수 템플릿 특수화", "함수 템플릿 특수화\함수 템플릿 특수화.vcxproj", "{600B708E-0367-4254-A34C-89DDCC2FC5E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{B8E48164-9630-48A7-86B5-DD71DFF5E8DB}.Release|x64.Build.0 = Release|x64
 		{B8E48164-9630-48A7-86B5-DD71DFF5E8DB}.Release|x86.ActiveCfg = Release|Win32
 		{B8E48164-9630-48A7-86B5-DD71DFF5E8DB}.Release|x86.Build.0 = Release|Win32
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Debug|x64.ActiveCfg = Debug|x64
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Debug|x64.Build.0 = Debug|x64
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Debug|x86.Build.0 = Debug|Win32
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Release|x64.ActiveCfg = Release|x64
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Release|x64.Build.0 = Release|x64
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Release|x86.ActiveCfg = Release|Win32
+		{600B708E-0367-4254-A34C-89DDCC2FC5E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
