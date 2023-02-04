@@ -21,7 +21,7 @@ void calc(vector<string>& commands, vector<int>& stack, vector<int>& inputs)
 			string tmp = command.substr(0, 3);
 			if (tmp == "NUM")
 			{
-				stack.emplace_back(stoi(command.substr(4, 1)));
+				stack.emplace_back(stoi(command.substr(4, command.size()-4)));
 			}
 			else if (stack.size() == 0)
 			{
@@ -47,7 +47,7 @@ void calc(vector<string>& commands, vector<int>& stack, vector<int>& inputs)
 			}
 			else if (tmp == "SWP")
 			{
-				iter_swap(stack.end(), stack.end() - 1);
+				iter_swap(stack.rbegin(), stack.rbegin() + 1);
 			}
 			else
 			{
@@ -67,6 +67,7 @@ void calc(vector<string>& commands, vector<int>& stack, vector<int>& inputs)
 				{
 					rst = first * second;
 				}
+				//0으로 나누는 경우
 				else if (first == 0)
 				{
 					output = "ERROR";
@@ -79,15 +80,19 @@ void calc(vector<string>& commands, vector<int>& stack, vector<int>& inputs)
 					{
 						rst = -1;
 					}
+					else
+					{
+						rst = 1;
+					}
 
-					rst *= labs(second) / labs(first);
+					rst *= (labs(second) / labs(first));
 				}
 				else if (tmp == "MOD")
 				{
 					rst = (second >= 0) ? 1 : -1; // 나머지의 부호는 피제수와 같다
-					rst *= labs(second) % labs(first);
+					rst *= (labs(second) % labs(first));
 				}
-				if (rst > MAX)
+				if (labs(rst) > MAX)
 				{
 					output = "ERROR";
 					break;
