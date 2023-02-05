@@ -4,7 +4,7 @@
 #include <vector>
 #include <cmath>
 #include <queue>
-
+//BFS 최단경로 사용
 using namespace std;
 int x[] = { 0,0,-1,1 };
 int y[] = { -1,1,0,0 };
