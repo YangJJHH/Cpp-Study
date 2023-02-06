@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "탈출(3055번)", "탈출(3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "가르침(1062번)", "가르침(1062번)\가르침(1062번).vcxproj", "{03BFE422-DC44-4945-8BB7-5C208ACB908A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "후보추천하기(1713번)", "후보추천하기(1713번)\후보추천하기(1713번).vcxproj", "{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{03BFE422-DC44-4945-8BB7-5C208ACB908A}.Release|x64.Build.0 = Release|x64
 		{03BFE422-DC44-4945-8BB7-5C208ACB908A}.Release|x86.ActiveCfg = Release|Win32
 		{03BFE422-DC44-4945-8BB7-5C208ACB908A}.Release|x86.Build.0 = Release|Win32
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Debug|x64.ActiveCfg = Debug|x64
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Debug|x64.Build.0 = Debug|x64
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Debug|x86.ActiveCfg = Debug|Win32
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Debug|x86.Build.0 = Debug|Win32
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Release|x64.ActiveCfg = Release|x64
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Release|x64.Build.0 = Release|x64
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Release|x86.ActiveCfg = Release|Win32
+		{06BD91A2-5DA2-4DB9-ACA4-ACF862A4CD29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
