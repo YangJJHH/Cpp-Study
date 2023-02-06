@@ -1,7 +1,4 @@
-DUP
-POP
-END
-1
-11
-
-QUIT
+3 6
+antarctica
+antahellotica
+antacartica
