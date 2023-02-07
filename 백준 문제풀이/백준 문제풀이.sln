@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "암호만들기(1759번)", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "스도쿠(2580번)", "스도쿠(2580번)\스도쿠(2580번).vcxproj", "{03D099BE-7857-4593-8696-7950C3E1A19D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "단어수학(1339번)", "단어수학(1339번)\단어수학(1339번).vcxproj", "{EB5B7255-6434-40E6-BB83-3612CD7640A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{03D099BE-7857-4593-8696-7950C3E1A19D}.Release|x64.Build.0 = Release|x64
 		{03D099BE-7857-4593-8696-7950C3E1A19D}.Release|x86.ActiveCfg = Release|Win32
 		{03D099BE-7857-4593-8696-7950C3E1A19D}.Release|x86.Build.0 = Release|Win32
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Debug|x64.ActiveCfg = Debug|x64
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Debug|x64.Build.0 = Debug|x64
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Debug|x86.Build.0 = Debug|Win32
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x64.ActiveCfg = Release|x64
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x64.Build.0 = Release|x64
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x86.ActiveCfg = Release|Win32
+		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
