@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "후보추천하기(1713번)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "수 찾기(1920번)", "수 찾기(1920번)\수 찾기(1920번).vcxproj", "{3F3C6CD9-A6EA-4625-B854-2F5CB1268395}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N-Queen (9663번)", "N-Queen (9663번)\N-Queen (9663번).vcxproj", "{70D2E440-9364-479D-A484-76E268D5294A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{3F3C6CD9-A6EA-4625-B854-2F5CB1268395}.Release|x64.Build.0 = Release|x64
 		{3F3C6CD9-A6EA-4625-B854-2F5CB1268395}.Release|x86.ActiveCfg = Release|Win32
 		{3F3C6CD9-A6EA-4625-B854-2F5CB1268395}.Release|x86.Build.0 = Release|Win32
+		{70D2E440-9364-479D-A484-76E268D5294A}.Debug|x64.ActiveCfg = Debug|x64
+		{70D2E440-9364-479D-A484-76E268D5294A}.Debug|x64.Build.0 = Debug|x64
+		{70D2E440-9364-479D-A484-76E268D5294A}.Debug|x86.ActiveCfg = Debug|Win32
+		{70D2E440-9364-479D-A484-76E268D5294A}.Debug|x86.Build.0 = Debug|Win32
+		{70D2E440-9364-479D-A484-76E268D5294A}.Release|x64.ActiveCfg = Release|x64
+		{70D2E440-9364-479D-A484-76E268D5294A}.Release|x64.Build.0 = Release|x64
+		{70D2E440-9364-479D-A484-76E268D5294A}.Release|x86.ActiveCfg = Release|Win32
+		{70D2E440-9364-479D-A484-76E268D5294A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
