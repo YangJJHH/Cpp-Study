@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "스도쿠(2580번)", "스�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "단어수학(1339번)", "단어수학(1339번)\단어수학(1339번).vcxproj", "{EB5B7255-6434-40E6-BB83-3612CD7640A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "치킨배달(15686번)", "치킨배달(15686번)\치킨배달(15686번).vcxproj", "{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x64.Build.0 = Release|x64
 		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x86.ActiveCfg = Release|Win32
 		{EB5B7255-6434-40E6-BB83-3612CD7640A3}.Release|x86.Build.0 = Release|Win32
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Debug|x64.ActiveCfg = Debug|x64
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Debug|x64.Build.0 = Debug|x64
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Debug|x86.Build.0 = Debug|Win32
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Release|x64.ActiveCfg = Release|x64
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Release|x64.Build.0 = Release|x64
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Release|x86.ActiveCfg = Release|Win32
+		{4E9F6ACA-F605-4BE4-9959-BC5F4D349DC5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
