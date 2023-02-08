@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "나무 자르기(2805번)",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "피보나치 수(2748번)", "피보나치 수(2748번)\피보나치 수(2748번).vcxproj", "{0F858453-986A-47F9-BC81-04764F5AA4A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "부분합(1806번)", "부분합(1806번)\부분합(1806번).vcxproj", "{0CD2F282-5180-4E90-A585-2C1D5EC55039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{0F858453-986A-47F9-BC81-04764F5AA4A4}.Release|x64.Build.0 = Release|x64
 		{0F858453-986A-47F9-BC81-04764F5AA4A4}.Release|x86.ActiveCfg = Release|Win32
 		{0F858453-986A-47F9-BC81-04764F5AA4A4}.Release|x86.Build.0 = Release|Win32
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Debug|x64.ActiveCfg = Debug|x64
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Debug|x64.Build.0 = Debug|x64
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Debug|x86.Build.0 = Debug|Win32
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Release|x64.ActiveCfg = Release|x64
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Release|x64.Build.0 = Release|x64
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Release|x86.ActiveCfg = Release|Win32
+		{0CD2F282-5180-4E90-A585-2C1D5EC55039}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
