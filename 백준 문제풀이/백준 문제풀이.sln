@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "구간의 합 구하기(204
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "정수 삼각형", "정수 삼각형\정수 삼각형.vcxproj", "{412B14BE-6757-4C74-B64A-5248D9836D9B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "구간 합 구하기4(11659번)", "구간 합 구하기4(11659번)\구간 합 구하기4(11659번).vcxproj", "{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{412B14BE-6757-4C74-B64A-5248D9836D9B}.Release|x64.Build.0 = Release|x64
 		{412B14BE-6757-4C74-B64A-5248D9836D9B}.Release|x86.ActiveCfg = Release|Win32
 		{412B14BE-6757-4C74-B64A-5248D9836D9B}.Release|x86.Build.0 = Release|Win32
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Debug|x64.ActiveCfg = Debug|x64
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Debug|x64.Build.0 = Debug|x64
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Debug|x86.Build.0 = Debug|Win32
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Release|x64.ActiveCfg = Release|x64
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Release|x64.Build.0 = Release|x64
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Release|x86.ActiveCfg = Release|Win32
+		{FBA6DA54-1DA1-43B3-80CE-A27E56E7B343}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
