@@ -8,7 +8,7 @@
 //(이진트리)
 using namespace std;
 int N, M, K;
-long long init(vector<long long>& arr, vector<long long>& tree,int node,int start, int end)
+long long init(vector<long long>& arr, vector<long long>& tree, int node, int start, int end)
 {
 	if (start == end) return tree[node]=arr[start];
 	int mid = (start + end) / 2;
@@ -22,11 +22,11 @@ long long partSum(vector<long long>& tree, int start, int end, int node, int lef
 	int mid = (start + end) / 2;
 	return partSum(tree, start,mid,node*2,left,right) + partSum(tree, mid+1, end, node * 2+1, left, right);
 }
-void change(vector<long long>& tree, int start, int end, int node, int target,int value)
+void change(vector<long long>& tree, int start, int end, int node, int target, long long value)
 {
 	if (target<start || target>end) return;
 	tree[node] += value;
-	if (start == target) return;
+	if (start == end) return;
 	int mid = (start + end) / 2;
 	change(tree, start, mid, node * 2,target,value);
 	change(tree, mid+1, end, node * 2 +1, target, value);
@@ -39,7 +39,7 @@ int main()
 	//트리 높이는 logN
 	// 노드갯수는 2^(높이 + 1)
 	int height = (int)ceil(log2(N));
-	int tree_size = (1 << (height + 1));
+	int tree_size = (1<<21);
 	vector<long long>arr(N);
 	vector<long long>tree(tree_size);
 	for (int i = 0; i < N; i++)
@@ -48,7 +48,7 @@ int main()
 	}
 	init(arr,tree,1,0,N-1);
 
-	int a, b, c;
+	long long a, b, c;
 	for (int i = 0; i < M + K; i++)
 	{
 		cin >> a >> b >> c;
