@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "집합의 표현", "집합�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DFS와BFS", "DFS와BFS\DFS와BFS.vcxproj", "{F07E7D25-C595-4D4A-B380-DFBED790F87F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "설탕배달(2839번)", "설탕배달(2839번)\설탕배달(2839번).vcxproj", "{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{F07E7D25-C595-4D4A-B380-DFBED790F87F}.Release|x64.Build.0 = Release|x64
 		{F07E7D25-C595-4D4A-B380-DFBED790F87F}.Release|x86.ActiveCfg = Release|Win32
 		{F07E7D25-C595-4D4A-B380-DFBED790F87F}.Release|x86.Build.0 = Release|Win32
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Debug|x64.ActiveCfg = Debug|x64
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Debug|x64.Build.0 = Debug|x64
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Debug|x86.Build.0 = Debug|Win32
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Release|x64.ActiveCfg = Release|x64
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Release|x64.Build.0 = Release|x64
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Release|x86.ActiveCfg = Release|Win32
+		{4F7E4869-7A86-40F0-AF61-5E32D1E1D36E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
