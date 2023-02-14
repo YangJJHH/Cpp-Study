@@ -16,7 +16,7 @@ void print()
 	}
 	cout << "\n";
 }
-void findArr(int idx)
+void findArr()
 {
 	if (arr.size() == M)
 	{
@@ -24,14 +24,14 @@ void findArr(int idx)
 		return;
 	}
 	
-	for (int i = 0; i < N+1; i++)
+	for (int i = 1; i < N+1; i++)
 	{
 		if (!visited[i])
 		{
-			arr.push_back(idx);
-			visited[idx] = 1;
-			findArr(i);
-			visited[idx] = 0;
+			arr.push_back(i);
+			visited[i] = 1;
+			findArr();
+			visited[i] = 0;
 			arr.pop_back();
 		}
 	}
@@ -46,6 +46,6 @@ int main()
 
 	
 
-	findArr(1);
+	findArr();
 	return 0;
 }
