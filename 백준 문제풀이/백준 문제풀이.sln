@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "설탕배달(2839번)", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATM", "ATM\ATM.vcxproj", "{CA4C5DA3-6877-4D11-842C-D68A66EA74E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N과 M(1)(15649번)", "N과 M(1)(15649번)\N과 M(1)(15649번).vcxproj", "{8B32FA8D-4E58-4908-94B1-9C990974E1E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{CA4C5DA3-6877-4D11-842C-D68A66EA74E0}.Release|x64.Build.0 = Release|x64
 		{CA4C5DA3-6877-4D11-842C-D68A66EA74E0}.Release|x86.ActiveCfg = Release|Win32
 		{CA4C5DA3-6877-4D11-842C-D68A66EA74E0}.Release|x86.Build.0 = Release|Win32
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Debug|x64.ActiveCfg = Debug|x64
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Debug|x64.Build.0 = Debug|x64
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Debug|x86.Build.0 = Debug|Win32
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x64.ActiveCfg = Release|x64
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x64.Build.0 = Release|x64
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x86.ActiveCfg = Release|Win32
+		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
