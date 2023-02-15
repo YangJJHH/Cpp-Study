@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATM", "ATM\ATM.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N과 M(1)(15649번)", "N과 M(1)(15649번)\N과 M(1)(15649번).vcxproj", "{8B32FA8D-4E58-4908-94B1-9C990974E1E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N과M(2)(15650번)", "N과M(2)(15650번)\N과M(2)(15650번).vcxproj", "{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x64.Build.0 = Release|x64
 		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x86.ActiveCfg = Release|Win32
 		{8B32FA8D-4E58-4908-94B1-9C990974E1E5}.Release|x86.Build.0 = Release|Win32
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Debug|x64.ActiveCfg = Debug|x64
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Debug|x64.Build.0 = Debug|x64
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Debug|x86.ActiveCfg = Debug|Win32
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Debug|x86.Build.0 = Debug|Win32
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Release|x64.ActiveCfg = Release|x64
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Release|x64.Build.0 = Release|x64
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Release|x86.ActiveCfg = Release|Win32
+		{9BFD4ED0-CA7E-487A-BA6B-9054CC164215}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
