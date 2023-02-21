@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "스타트와링크(14889번
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "피보나치수1(24416번)", "피보나치수1(24416번)\피보나치수1(24416번).vcxproj", "{3A3ACB0C-19E4-4A15-A64E-3CB024C4461F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "신나는함수실행(9184번)", "신나는함수실행(9184번)\신나는함수실행(9184번).vcxproj", "{F585E1B3-B744-4249-897F-00B535994A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +373,14 @@ Global
 		{3A3ACB0C-19E4-4A15-A64E-3CB024C4461F}.Release|x64.Build.0 = Release|x64
 		{3A3ACB0C-19E4-4A15-A64E-3CB024C4461F}.Release|x86.ActiveCfg = Release|Win32
 		{3A3ACB0C-19E4-4A15-A64E-3CB024C4461F}.Release|x86.Build.0 = Release|Win32
+		{F585E1B3-B744-4249-897F-00B535994A22}.Debug|x64.ActiveCfg = Debug|x64
+		{F585E1B3-B744-4249-897F-00B535994A22}.Debug|x64.Build.0 = Debug|x64
+		{F585E1B3-B744-4249-897F-00B535994A22}.Debug|x86.ActiveCfg = Debug|Win32
+		{F585E1B3-B744-4249-897F-00B535994A22}.Debug|x86.Build.0 = Debug|Win32
+		{F585E1B3-B744-4249-897F-00B535994A22}.Release|x64.ActiveCfg = Release|x64
+		{F585E1B3-B744-4249-897F-00B535994A22}.Release|x64.Build.0 = Release|x64
+		{F585E1B3-B744-4249-897F-00B535994A22}.Release|x86.ActiveCfg = Release|Win32
+		{F585E1B3-B744-4249-897F-00B535994A22}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
