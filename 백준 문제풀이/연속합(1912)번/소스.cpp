@@ -12,6 +12,8 @@ int main()
 	cin >> N;
 	int arr_sum;
 	cin >> arr_sum;
+	vector<int> max_sum;
+	max_sum.push_back(arr_sum);
 	int n;
 	for (int i = 1; i < N; i++)
 	{
@@ -24,7 +26,8 @@ int main()
 		{
 			arr_sum += n;
 		}
+		max_sum.push_back(arr_sum);
 	}
-	cout << arr_sum;
+	cout << *max_element(max_sum.begin(), max_sum.end());
 	return 0;
 }
