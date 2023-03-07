@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGB거리(1149번)", "RGB�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "계단오르기(2579번)", "계단오르기(2579번)\계단오르기(2579번).vcxproj", "{FD0701CB-3669-423C-BDB9-67D175F0A30C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1로만들기(1463번)", "1로만들기(1463번)\1로만들기(1463번).vcxproj", "{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -431,6 +433,14 @@ Global
 		{FD0701CB-3669-423C-BDB9-67D175F0A30C}.Release|x64.Build.0 = Release|x64
 		{FD0701CB-3669-423C-BDB9-67D175F0A30C}.Release|x86.ActiveCfg = Release|Win32
 		{FD0701CB-3669-423C-BDB9-67D175F0A30C}.Release|x86.Build.0 = Release|Win32
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Debug|x64.ActiveCfg = Debug|x64
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Debug|x64.Build.0 = Debug|x64
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Debug|x86.Build.0 = Debug|Win32
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Release|x64.ActiveCfg = Release|x64
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Release|x64.Build.0 = Release|x64
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Release|x86.ActiveCfg = Release|Win32
+		{71EFC79A-2B9B-4D55-8CD4-0FB34A39F8CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
