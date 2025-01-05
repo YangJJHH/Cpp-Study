@@ -1,0 +1,28 @@
+27
+empty
+size
+front
+back
+push 3
+push 100000
+push 100000
+push 100000
+push 1
+push 1
+push 2
+size
+pop
+pop
+pop
+empty
+back
+front
+pop
+pop
+pop
+pop
+pop
+front
+size
+back
+empty
