@@ -38,6 +38,7 @@ void GetCase()
 		{
 			int val = temp % 4;
 			vec.push_back(val);
+			temp /= 4;
 		}
 		movecase.emplace_back(vec);
 	}
