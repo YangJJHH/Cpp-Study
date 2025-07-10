@@ -71,40 +71,42 @@ istream& read(istream& in,StudentInfo& s)
     read_hw(in,s.homework);
     return in;
 }
+
+
+int arr[8] = { 7,1,3,4,2,10,19,20 };
+int temp[8];
+
+void Quick_Sort(int start, int end)
+{
+    if (start + 1 >= end) return;
+
+    int pivot = arr[start];
+    int l = start + 1;
+    int r = end - 1;
+
+    while (true)
+    {
+        while (l <= r && arr[l] <= pivot) l++; // pivot보다 큰값이 나올때까지
+        while (l <= r && arr[r] >= pivot) r--; // pivot보다 작은값이 나올떄까지
+        if (l > r) break; // r이 l보다 왼쪽에 있으면
+        
+        std::swap(arr[l], arr[r]); // 서로 원소를 찾으면 자리바꾸기 
+    }
+    std::swap(arr[start], arr[r]);
+    Quick_Sort(start, r);
+    Quick_Sort(r+1, end);
+}
+
+
 int main()
 {
-    vector<StudentInfo> students;
-    StudentInfo record;
-    string::size_type maxlen = 0;
-
-    while (read(cin, record))
-    {
-        maxlen = max(maxlen, record.name.size());
-        students.push_back(record);
-    }
-
-    sort(students.begin(), students.end(), compare);
-    for(const StudentInfo &s : students)
-    {
-        cout << s.name << string(maxlen + 1 - s.name.size(), ' ');
-        try
-        {
-            //print result
-            streamsize prec = cout.precision();
-            double final_grade = grade(s);
-            cout << setprecision(3)
-                << final_grade
-                << setprecision(prec);
-        }
-        catch (domain_error e)
-        {
-            cout << e.what() << endl;
-            return 1;
-        }
-        cout << endl;
-
-    }
-   
+    // 머지 정렬
+    
+    int n = 8;
+    Quick_Sort(0, n);
+    
+    for (auto ele : arr)
+        cout << ele << ' ';
 
     return 0;
 }
