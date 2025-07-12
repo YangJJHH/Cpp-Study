@@ -60,7 +60,7 @@ int main()
 	MergeSort(0, N);
 	for (int i = 0; i < N; ++i)
 	{
-		cout << arr[i];
+		cout << arr[i] <<'\n';
 	}
 
 	return 0;
